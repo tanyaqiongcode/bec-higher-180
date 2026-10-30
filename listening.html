@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>听力作战室 · BEC 高级 180 突围营</title>
+<meta name="description" content="BEC 高级听力三 Part 拆解、官方分数换算器、精听四步法与 A-B 循环精听工作台。听力 158 → 175+ 的正面战场。">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav__inner">
+    <a class="nav__brand" href="index.html"><span class="mark">B2C</span>BEC 高级 180 突围营</a>
+    <button class="nav__burger" aria-label="菜单"><span></span><span></span><span></span></button>
+    <div class="nav__links">
+      <a href="index.html">首页</a>
+      <a href="listening.html">听力作战室</a>
+      <a href="practice.html">每日弹药库</a>
+      <a href="materials.html">真题与资源</a>
+      <a href="exam.html">考试全解</a>
+      <a href="roadmap.html">冲刺计划</a>
+      <a href="#workbench" class="nav__cta">开始精听 →</a>
+    </div>
+  </div>
+</nav>
+
+<header class="pagehead">
+  <div class="wrap">
+    <div class="eyebrow reveal" style="color:var(--gold-soft)">Listening · 40 min · 30 题 · 每段放两遍</div>
+    <h1 class="reveal">听力作战室</h1>
+    <p class="lead reveal">你距 180 的全部距离都在这里。目标被拆成三个 Part 的题目数：Part1 拿稳 9/12、Part2 拿 5/10、Part3 拿 6/8 —— 合计 20 题 ≈ 官方换算 180 分。</p>
+  </div>
+</header>
+
+<!-- ===== 三 Part 拆解 ===== -->
+<section class="section">
+  <div class="wrap">
+    <div class="eyebrow reveal">Know the enemy</div>
+    <h2 class="reveal">三个 Part，三种打法</h2>
+    <div class="grid grid--3 mt-2">
+      <div class="card reveal">
+        <span class="chip chip--gold">Part 1 · 12 题</span>
+        <h3 class="mt-2">笔记填空</h3>
+        <p>2-3 分钟独白（培训/简报/说明），补全句子或笔记，<b>答案不超过 3 个词</b>，两遍录音。</p>
+        <p class="mt-1"><b style="color:var(--good)">目标 9/12</b></p>
+        <p class="small muted mt-1"><b>打法：</b>放音前按空格预测词性（数字/日期/金额/人名最常考）；第一遍抓词、第二遍校对拼写。英美拼法均须准确，15/50、千位/百万读法是送分也是送命。</p>
+      </div>
+      <div class="card reveal" data-delay="1">
+        <span class="chip chip--gold">Part 2 · 10 题</span>
+        <h3 class="mt-2">双重匹配</h3>
+        <p>5 段短独白 × <b>两个匹配任务</b>（如「说话人的身份」+「说话人的观点」），选项 A-H，题目难度全文最高。</p>
+        <p class="mt-1"><b style="color:var(--good)">目标 5/10</b></p>
+        <p class="small muted mt-1"><b>打法：</b>考察观点/态度/意图而非字面词——警惕「原词陷阱」，正确项几乎总是同义改写。首遍记关键词定方向，次遍用排除法锁定。</p>
+      </div>
+      <div class="card reveal" data-delay="2">
+        <span class="chip chip--gold">Part 3 · 8 题</span>
+        <h3 class="mt-2">长对话多选</h3>
+        <p>访谈或两人讨论（4-5 分钟），每题三选一，多为观点推断与细节并重。</p>
+        <p class="mt-1"><b style="color:var(--good)">目标 6/8</b></p>
+        <p class="small muted mt-1"><b>打法：</b>听前划题干+选项关键词；边听边在题旁速记缩写；重点抓转折（but/however）、强调与表态句。首遍粗定，次遍验证。</p>
+      </div>
+    </div>
+
+    <div class="callout reveal mt-3">
+      <b>高频场景清单</b>（官方 Handbook 归类）：会议讨论 · 工作简报 · 求职/绩效面谈 · 演示汇报 · 电话会议 · 订单物流投诉 · 培训讲解。泛听选材时对着这张表选，语域才对口。
+    </div>
+  </div>
+</section>
+
+<!-- ===== 换算器 ===== -->
+<section class="section section--tint" id="converter">
+  <div class="wrap">
+    <div class="eyebrow reveal">Score Converter</div>
+    <h2 class="reveal">做对几题，等于几分？</h2>
+    <p class="lead reveal mb-2">按剑桥官方换算锚点分段插值。每周模考后输入做对题数，盯着曲线走到 21。</p>
+    <div class="tool reveal" data-convert>
+      <div class="tool__row">
+        <div>
+          <label for="rawscore">听力做对题数（0-30）</label>
+          <input id="rawscore" type="number" min="0" max="30" value="12" data-convert-in>
+        </div>
+        <div>
+          <label>换算听力 Scale 分</label>
+          <div class="tool__result grad-text" data-convert-out>—</div>
+        </div>
+      </div>
+      <p class="small muted mt-2 mb-0" data-convert-note>官方锚点：12→160 · 17→170 · 21→180 · 25→190</p>
+    </div>
+    <div class="grid grid--4 mt-3">
+      <div class="card reveal center"><div class="stat"><div class="v grad-text">12<small>/30</small></div><div class="k">≈ 160 · 你现在的水位（2025-09 实测 158）</div></div></div>
+      <div class="card reveal center" data-delay="1"><div class="stat"><div class="v grad-text">17<small>/30</small></div><div class="k">≈ 170 · 半程里程碑</div></div></div>
+      <div class="card reveal center" data-delay="2"><div class="stat"><div class="v grad-text">21<small>/30</small></div><div class="k">≈ 180 · 总分上 Grade C</div></div></div>
+      <div class="card reveal center" data-delay="3"><div class="stat"><div class="v grad-text">25<small>/30</small></div><div class="k">≈ 190 · Grade B 冲刺位</div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 方法 ===== -->
+<section class="section" id="method">
+  <div class="wrap">
+    <div class="eyebrow reveal">Method</div>
+    <h2 class="reveal">精听四步法：B2 → C1 的唯一通路</h2>
+    <p class="lead reveal mb-2">听力 158 的本质：语速 160-190 wpm、多口音、行话密度高的语流里，你的逐词解码跟不上。解法不是多听，而是「精听把耳朵练准，跟读把预测练快」。</p>
+    <div class="steps">
+      <div class="step reveal"><h4>盲听抓框架</h4><p>不看文本听 1-2 遍，用 3 句话概括：谁在说、什么场景、结论是什么。练的是 BEC Part3 最看重的「框架理解力」。</p></div>
+      <div class="step reveal"><h4>逐句听写</h4><p>一句一停，写不出来就重复 3 遍再下一句。听写暴露的是「听到」与「听懂」的精确差距——连读、弱读、缩读全在这里现形。</p></div>
+      <div class="step reveal"><h4>对照文本标差异</h4><p>逐句核对，用红笔标出：没听出来的连读（wanna / kinda）、弱读（of → /əv/→/ə/）、行话与习语。这些就是你的个人「失分词典」，每周回滚复习。</p></div>
+      <div class="step reveal"><h4>影子跟读至同步</h4><p>落后原音 0.5 秒跟读，模仿语调连读，直到能流畅同步整段。能跟上的语速，才是你真正「听得懂」的语速。</p></div>
+    </div>
+    <div class="grid grid--2 mt-3">
+      <div class="card reveal">
+        <h3>B2 → C1 的三个跨越</h3>
+        <p><b>① 意群理解：</b>从逐词解码切换到按 4-6 词的 chunk 接收；<br><b>② 口音多样化：</b>英（BBC/Business Daily）、美（Marketplace/WSJ）、澳（真题自带）轮换，考场上没有口音是陌生的；<br><b>③ 语速适配：</b>从 150 wpm 爬到 170-190 wpm（访谈、美剧）。</p>
+      </div>
+      <div class="card reveal" data-delay="1">
+        <h3>弹药纪律</h3>
+        <p>真题辑 1-5 辑共约 20 套，是<b>有限弹药</b>：11-2 月两轮精听用 15 套，考前留 5 套全真模考。日常加餐用无限弹药的播客库（<a href="practice.html">每日弹药库</a>），绝不提前消耗真题。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 精听工作台 ===== -->
+<section class="section section--tint" id="workbench">
+  <div class="wrap">
+    <div class="eyebrow reveal">Intensive Workbench</div>
+    <h2 class="reveal">精听工作台</h2>
+    <p class="lead reveal mb-2">从下方选择今日素材（每日自动更新，也可粘贴任意音频链接），用变速、回退、A-B 循环完成四步法。时长与笔记自动保存在本机。</p>
+
+    <div class="player reveal" data-workbench>
+      <div class="flex between mb-1">
+        <div>
+          <div class="player__title" data-wb-title>选择素材后开始精听</div>
+          <div class="player__meta">今日已听 <b data-wb-timer>0:00</b> · 累计 <b data-wb-total>0 分钟</b></div>
+        </div>
+        <div class="player__ctrl">
+          <select data-wb-speed aria-label="倍速">
+            <option value="0.6">0.6×</option>
+            <option value="0.8">0.8×</option>
+            <option value="1" selected>1.0×</option>
+            <option value="1.25">1.25×</option>
+            <option value="1.5">1.5×</option>
+          </select>
+        </div>
+      </div>
+      <audio controls preload="none" style="width:100%;height:42px;margin-bottom:12px"></audio>
+      <div class="player__ctrl mb-2">
+        <button class="pbtn" data-wb-pause>播放/暂停</button>
+        <button class="pbtn" data-wb-back>« 5s</button>
+        <button class="pbtn" data-wb-fwd>5s »</button>
+        <button class="pbtn" data-wb-replay>重听 10s</button>
+        <button class="pbtn" data-wb-loop>A-B 循环</button>
+      </div>
+      <div class="flex mb-1">
+        <select class="grow" data-wb-src aria-label="选择素材" style="padding:11px 12px;border-radius:10px;border:1px solid rgba(16,36,63,.18);font:inherit"></select>
+      </div>
+      <div class="flex mb-2">
+        <input class="grow" data-wb-url placeholder="或粘贴音频直链（mp3）" style="padding:11px 14px;border-radius:10px;border:1px solid rgba(16,36,63,.18);font:inherit">
+        <button class="pbtn" data-wb-loadurl>加载</button>
+      </div>
+
+      <div class="grid grid--2">
+        <div>
+          <h4 style="margin-bottom:10px">四步法清单</h4>
+          <div class="flex" style="flex-direction:column;align-items:flex-start;gap:10px">
+            <label style="font-size:.92rem"><input type="checkbox" data-step> ① 盲听抓框架</label>
+            <label style="font-size:.92rem"><input type="checkbox" data-step> ② 逐句听写</label>
+            <label style="font-size:.92rem"><input type="checkbox" data-step> ③ 对照文本标差异</label>
+            <label style="font-size:.92rem"><input type="checkbox" data-step> ④ 影子跟读至同步</label>
+          </div>
+          <p class="small" data-wb-status style="color:var(--good);font-weight:650;margin-top:10px"></p>
+        </div>
+        <div>
+          <h4 style="margin-bottom:10px">精听笔记（连读 / 弱读 / 生词）</h4>
+          <textarea class="note" data-wb-note placeholder="例：turn out 弱读 /tɜ:n aʊt/ 被吞；quarterly 重音在 1st；point 5 百分比说法…"></textarea>
+          <div class="flex mt-1">
+            <button class="btn btn--ink btn--sm" data-wb-save>保存笔记</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="callout reveal mt-3">
+      <b>找不到音频直链？</b>BBC 播客 mp3 在<a href="practice.html">每日弹药库</a>每张卡片下方的播放器里可直接播放；真题听力请配合可可英语/B站使用（见<a href="materials.html">真题与资源</a>），边放边把「逐句听写」做在纸上或笔记区。
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__base">
+      <span>© <span data-year>2026</span> BEC 180 突围营 · <a href="index.html">返回首页</a></span>
+      <span>听力 158 → 175+，一天 45 分钟。</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/main.js"></script>
+<script src="assets/practice.js"></script>
+</body>
+</html>
