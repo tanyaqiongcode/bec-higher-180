@@ -21,7 +21,7 @@ FEEDS = [
     {"id": "bbc-bizdaily",   "name": "BBC Business Daily",       "url": "https://downloads.bbc.co.uk/podcasts/worldservice/bizdaily/rss.xml"},
     {"id": "marketplace",    "name": "Marketplace Morning Report", "url": "https://www.marketplace.org/feed/podcast/marketplace-morning-report"},
     {"id": "ft-briefing",    "name": "FT News Briefing",          "url": "https://feeds.acast.com/public/shows/73fe3ede-5c5c-4850-96a8-30db8dbae8bf"},
-    {"id": "hbr-ideacast",   "name": "HBR IdeaCast",              "url": "https://feeds.harvardbusiness.org/harvardbusiness/ideacast"},
+    {"id": "hbr-ideacast",   "name": "HBR IdeaCast",              "url": "https://feeds.feedburner.com/harvardbusiness/ideacast"},
     {"id": "bbc-globalnews", "name": "BBC Global News Podcast",   "url": "https://downloads.bbc.co.uk/podcasts/worldservice/globalnews/rss.xml"},
     {"id": "economist-intel","name": "The Intelligence · Economist", "url": "https://feeds.acast.com/public/shows/theintelligencepodcast"},
     {"id": "skills360",      "name": "Business English Pod · Skills 360", "url": "https://feeds.feedburner.com/Skills360"},
