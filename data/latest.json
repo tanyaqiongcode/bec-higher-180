@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T18:26:09.077585+00:00",
+  "updated": "2026-10-30T19:59:10.968557+00:00",
   "feeds": [
     {
       "id": "bbc-bizdaily",
@@ -127,6 +127,49 @@
           "link": "https://shows.acast.com/ftnewsbriefing/episodes/serbias-strongman-leader-voted-out",
           "date": "Mon, 26 Oct 2026 04:00:00 GMT",
           "audio": "https://sphinx.acast.com/p/acast/s/ftnewsbriefing/e/6ade7ea2d10dc4428d2e90f0/media.mp3"
+        }
+      ]
+    },
+    {
+      "id": "hbr-ideacast",
+      "name": "HBR IdeaCast",
+      "url": "https://feeds.feedburner.com/harvardbusiness/ideacast",
+      "items": [
+        {
+          "title": "Staying Principled in a Time of Uncertainty",
+          "link": "https://hbr.org/podcast/2026/10/staying-principled-in-a-time-of-uncertainty",
+          "date": "Tue, 27 Oct 2026 06:03:40 -0500",
+          "audio": "https://audio.hbr.org/ideacast/20261023142429_262374-StayingPrincipledinaTimeofUncertainty.mp3"
+        },
+        {
+          "title": "When You Feel Envy, Turn It Into Something Productive",
+          "link": "https://hbr.org/podcast/2026/10/when-you-feel-envy-turn-it-into-something-productive",
+          "date": "Tue, 20 Oct 2026 06:09:31 -0500",
+          "audio": "https://audio.hbr.org/ideacast/20261019101328_286459-WhenYouFeelEnvyTurnItIntoSomethingProductive.mp3"
+        },
+        {
+          "title": "Why Great Teams Don’t Need to Like Each Other",
+          "link": "https://hbr.org/podcast/2026/10/why-great-teams-dont-need-to-like-each-other",
+          "date": "Tue, 13 Oct 2026 06:06:48 -0500",
+          "audio": "https://audio.hbr.org/ideacast/20261012152442_986082-WhyGreatTeamsDon_tNeedtoLikeEachOther.mp3"
+        },
+        {
+          "title": "How AI Is Changing Strategy: Rethinking What Your Business Is Designed to Do",
+          "link": "https://hbr.org/podcast/2026/10/how-ai-is-changing-strategy-rethinking-what-your-business-is-designed-to-do",
+          "date": "Thu, 08 Oct 2026 07:04:20 -0500",
+          "audio": "https://audio.hbr.org/ideacast/20261007153151_181590-HowAIIsChangingStrategy_RethinkingWhatYourBusinessIsDesignedtoDo.mp3"
+        },
+        {
+          "title": "Optimism Is Now an Essential Leadership Skill",
+          "link": "https://hbr.org/podcast/2026/10/optimism-is-now-an-essential-leadership-skill",
+          "date": "Tue, 06 Oct 2026 06:03:02 -0500",
+          "audio": "https://audio.hbr.org/ideacast/20261005143601_459117-OptimismIsNowanEssentialLeadershipSkill.mp3"
+        },
+        {
+          "title": "How AI Is Changing Innovation: Why Speed Alone Isn’t a Strategy",
+          "link": "https://hbr.org/podcast/2026/10/how-ai-is-changing-innovation-why-speed-alone-isnt-a-strategy",
+          "date": "Thu, 01 Oct 2026 07:04:26 -0500",
+          "audio": "https://audio.hbr.org/ideacast/20260930152004_957489-HowAIIsChangingInnovation_WhySpeedAloneIsn_taStrategy.mp3"
         }
       ]
     },
