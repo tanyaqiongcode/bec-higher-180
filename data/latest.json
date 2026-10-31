@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T19:59:10.968557+00:00",
+  "updated": "2026-10-31T06:20:30.699380+00:00",
   "feeds": [
     {
       "id": "bbc-bizdaily",
@@ -93,6 +93,12 @@
       "url": "https://feeds.acast.com/public/shows/73fe3ede-5c5c-4850-96a8-30db8dbae8bf",
       "items": [
         {
+          "title": "Martin Wolf on the US midterms: What’s the risk of political violence?",
+          "link": "https://shows.acast.com/ftnewsbriefing/episodes/martin-wolf-on-the-us-midterms-whats-the-risk-of-political-v",
+          "date": "Sat, 31 Oct 2026 05:00:00 GMT",
+          "audio": "https://sphinx.acast.com/p/acast/s/ftnewsbriefing/e/6ae48aca9fd2fa3c160f2ee4/media.mp3"
+        },
+        {
           "title": "Alphabet’s brutal day on the stock market",
           "link": "https://shows.acast.com/ftnewsbriefing/episodes/alphabets-brutal-day-on-the-stock-market",
           "date": "Fri, 30 Oct 2026 05:00:00 GMT",
@@ -121,12 +127,6 @@
           "link": "https://shows.acast.com/ftnewsbriefing/episodes/update-lula-pulls-off-election-win-in-brazil",
           "date": "Mon, 26 Oct 2026 11:58:42 GMT",
           "audio": "https://sphinx.acast.com/p/acast/s/ftnewsbriefing/e/6adf4072dd5d6293db7252e4/media.mp3"
-        },
-        {
-          "title": "Serbia’s strongman leader voted out",
-          "link": "https://shows.acast.com/ftnewsbriefing/episodes/serbias-strongman-leader-voted-out",
-          "date": "Mon, 26 Oct 2026 04:00:00 GMT",
-          "audio": "https://sphinx.acast.com/p/acast/s/ftnewsbriefing/e/6ade7ea2d10dc4428d2e90f0/media.mp3"
         }
       ]
     },
@@ -179,6 +179,12 @@
       "url": "https://downloads.bbc.co.uk/podcasts/worldservice/globalnews/rss.xml",
       "items": [
         {
+          "title": "US approves sale of 500 Patriot missiles to Ukraine",
+          "link": "http://www.bbc.co.uk/programmes/p0pkkxk0",
+          "date": "Sat, 31 Oct 2026 05:01:00 +0000",
+          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pkkvq7.mp3"
+        },
+        {
           "title": "Residents leave devastated Russian-occupied Oleshky",
           "link": "http://www.bbc.co.uk/programmes/p0pkhvpg",
           "date": "Fri, 30 Oct 2026 16:51:00 +0000",
@@ -207,12 +213,6 @@
           "link": "http://www.bbc.co.uk/programmes/p0pk3hmm",
           "date": "Wed, 28 Oct 2026 16:28:00 +0000",
           "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pk3gws.mp3"
-        },
-        {
-          "title": "Israel election too close to call",
-          "link": "http://www.bbc.co.uk/programmes/p0pjz1m1",
-          "date": "Wed, 28 Oct 2026 05:23:00 +0000",
-          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pjz1h1.mp3"
         }
       ]
     },
