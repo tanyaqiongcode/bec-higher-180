@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T06:20:30.699380+00:00",
+  "updated": "2026-11-01T06:52:59.233992+00:00",
   "feeds": [
     {
       "id": "bbc-bizdaily",
@@ -170,49 +170,6 @@
           "link": "https://hbr.org/podcast/2026/10/how-ai-is-changing-innovation-why-speed-alone-isnt-a-strategy",
           "date": "Thu, 01 Oct 2026 07:04:26 -0500",
           "audio": "https://audio.hbr.org/ideacast/20260930152004_957489-HowAIIsChangingInnovation_WhySpeedAloneIsn_taStrategy.mp3"
-        }
-      ]
-    },
-    {
-      "id": "bbc-globalnews",
-      "name": "BBC Global News Podcast",
-      "url": "https://downloads.bbc.co.uk/podcasts/worldservice/globalnews/rss.xml",
-      "items": [
-        {
-          "title": "US approves sale of 500 Patriot missiles to Ukraine",
-          "link": "http://www.bbc.co.uk/programmes/p0pkkxk0",
-          "date": "Sat, 31 Oct 2026 05:01:00 +0000",
-          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pkkvq7.mp3"
-        },
-        {
-          "title": "Residents leave devastated Russian-occupied Oleshky",
-          "link": "http://www.bbc.co.uk/programmes/p0pkhvpg",
-          "date": "Fri, 30 Oct 2026 16:51:00 +0000",
-          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pkhvcv.mp3"
-        },
-        {
-          "title": "Venezuelan opposition leader criticises US oil deal",
-          "link": "http://www.bbc.co.uk/programmes/p0pkds06",
-          "date": "Fri, 30 Oct 2026 05:57:00 +0000",
-          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pkdh9g.mp3"
-        },
-        {
-          "title": "Deadly Russian drone hits Ukrainian railway station",
-          "link": "http://www.bbc.co.uk/programmes/p0pk9z25",
-          "date": "Thu, 29 Oct 2026 15:48:00 +0000",
-          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pk9x5b.mp3"
-        },
-        {
-          "title": "Bolsonaro declares himself 'Brazil's leader'",
-          "link": "http://www.bbc.co.uk/programmes/p0pk6j6v",
-          "date": "Thu, 29 Oct 2026 05:29:00 +0000",
-          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pk6j15.mp3"
-        },
-        {
-          "title": "Dozens killed in train crash in Spain",
-          "link": "http://www.bbc.co.uk/programmes/p0pk3hmm",
-          "date": "Wed, 28 Oct 2026 16:28:00 +0000",
-          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pk3gws.mp3"
         }
       ]
     },
