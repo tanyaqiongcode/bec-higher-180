@@ -1,0 +1,28 @@
+name: Tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Syntax check (browser JS)
+        run: for f in assets/*.js; do node --check "$f"; done
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Python 语法检查
+        run: python3 -m py_compile scripts/*.py
+
+      - name: 数据文件校验
+        run: python3 -c "import json; d=json.load(open('data/latest.json')); assert isinstance(d, dict) and 'updated' in d and 'feeds' in d, 'latest.json 结构异常'; print('latest.json OK:', len(d['feeds']), 'feeds')"
