@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T06:37:50.489548+00:00",
+  "updated": "2026-11-08T06:43:44.147528+00:00",
   "feeds": [
     {
       "id": "marketplace",
@@ -127,6 +127,49 @@
           "link": "https://hbr.org/podcast/2026/10/optimism-is-now-an-essential-leadership-skill",
           "date": "Tue, 06 Oct 2026 06:03:02 -0500",
           "audio": "https://audio.hbr.org/ideacast/20261005143601_459117-OptimismIsNowanEssentialLeadershipSkill.mp3"
+        }
+      ]
+    },
+    {
+      "id": "bbc-globalnews",
+      "name": "BBC Global News Podcast",
+      "url": "https://downloads.bbc.co.uk/podcasts/worldservice/globalnews/rss.xml",
+      "items": [
+        {
+          "title": "Poland in shock as six killed in shooting",
+          "link": "http://www.bbc.co.uk/programmes/p0plw73g",
+          "date": "Sun, 08 Nov 2026 04:44:00 +0000",
+          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0plw70f.mp3"
+        },
+        {
+          "title": "The Happy Pod: Celebrating the wedding that never happened",
+          "link": "http://www.bbc.co.uk/programmes/p0plplrh",
+          "date": "Sat, 07 Nov 2026 12:00:00 +0000",
+          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0plpklc.mp3"
+        },
+        {
+          "title": "Trump appoints new chief of staff after midterm defeat",
+          "link": "http://www.bbc.co.uk/programmes/p0plrs2j",
+          "date": "Sat, 07 Nov 2026 04:19:00 +0000",
+          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0plrs0b.mp3"
+        },
+        {
+          "title": "Tech stocks tank over AI panic",
+          "link": "http://www.bbc.co.uk/programmes/p0plnyvn",
+          "date": "Fri, 06 Nov 2026 16:06:00 +0000",
+          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0plnwcw.mp3"
+        },
+        {
+          "title": "Pete Hegseth under pressure after US elections",
+          "link": "http://www.bbc.co.uk/programmes/p0plk945",
+          "date": "Fri, 06 Nov 2026 05:39:00 +0000",
+          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0plk8hr.mp3"
+        },
+        {
+          "title": "Fresh mass protests in France",
+          "link": "http://www.bbc.co.uk/programmes/p0plh2tw",
+          "date": "Thu, 05 Nov 2026 16:22:00 +0000",
+          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0plh23f.mp3"
         }
       ]
     },
