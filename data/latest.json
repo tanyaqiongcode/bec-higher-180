@@ -1,6 +1,49 @@
 {
-  "updated": "2026-11-08T06:43:44.147528+00:00",
+  "updated": "2026-11-09T07:14:21.423406+00:00",
   "feeds": [
+    {
+      "id": "bbc-bizdaily",
+      "name": "BBC Business Daily",
+      "url": "https://downloads.bbc.co.uk/podcasts/worldservice/bizdaily/rss.xml",
+      "items": [
+        {
+          "title": "Why Europe wants to rely less on US tech companies",
+          "link": "http://www.bbc.co.uk/programmes/w3ct8ggr",
+          "date": "Sun, 08 Nov 2026 21:30:00 +0000",
+          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0plhryv.mp3"
+        },
+        {
+          "title": "Power Players: Can the Democrats tackle America's affordability crisis?",
+          "link": "http://www.bbc.co.uk/programmes/p0plp56f",
+          "date": "Fri, 06 Nov 2026 16:30:00 +0000",
+          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0plp16h.mp3"
+        },
+        {
+          "title": "Taking Stock mid-terms special: The economy, Musk, Trump and data centres",
+          "link": "http://www.bbc.co.uk/programmes/w3ct8gb6",
+          "date": "Thu, 05 Nov 2026 16:04:00 +0000",
+          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0plgzlw.mp3"
+        },
+        {
+          "title": "Power Players: Is Apple missing the AI boat?",
+          "link": "http://www.bbc.co.uk/programmes/w3ct8gm7",
+          "date": "Wed, 04 Nov 2026 21:30:00 +0000",
+          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0plddpd.mp3"
+        },
+        {
+          "title": "Founders: The entrepreneur betting AI will replace apps",
+          "link": "http://www.bbc.co.uk/programmes/w3ct98sv",
+          "date": "Tue, 03 Nov 2026 21:30:00 +0000",
+          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pl2w95.mp3"
+        },
+        {
+          "title": "Follow the Money: Your Diwali gold necklace",
+          "link": "http://www.bbc.co.uk/programmes/w3ct8grr",
+          "date": "Mon, 02 Nov 2026 21:30:00 +0000",
+          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pkwx5v.mp3"
+        }
+      ]
+    },
     {
       "id": "marketplace",
       "name": "Marketplace Morning Report",
@@ -50,6 +93,12 @@
       "url": "https://feeds.acast.com/public/shows/73fe3ede-5c5c-4850-96a8-30db8dbae8bf",
       "items": [
         {
+          "title": "Nvidia CEO admits to affair after allegations of relationship with Chinese spy",
+          "link": "https://shows.acast.com/ftnewsbriefing/episodes/nvidia-ceo-admits-to-affair-after-allegations-of-relationshi",
+          "date": "Mon, 09 Nov 2026 05:00:00 GMT",
+          "audio": "https://sphinx.acast.com/p/acast/s/ftnewsbriefing/e/6af0ec50b68b03091ec747fc/media.mp3"
+        },
+        {
           "title": "Martin Wolf on the US midterms: What will the Democrats do next?",
           "link": "https://shows.acast.com/ftnewsbriefing/episodes/martin-wolf-on-the-us-midterms-what-will-the-democrats-do-ne",
           "date": "Sat, 07 Nov 2026 05:00:00 GMT",
@@ -78,12 +127,6 @@
           "link": "https://shows.acast.com/ftnewsbriefing/episodes/judgement-day-for-trumps-republican-party",
           "date": "Tue, 03 Nov 2026 05:00:00 GMT",
           "audio": "https://sphinx.acast.com/p/acast/s/ftnewsbriefing/e/6ae92f9185d3a4476285ae02/media.mp3"
-        },
-        {
-          "title": "The Gulf braces for new strikes against Iran",
-          "link": "https://shows.acast.com/ftnewsbriefing/episodes/the-gulf-braces-for-new-strikes-against-iran",
-          "date": "Mon, 02 Nov 2026 05:00:00 GMT",
-          "audio": "https://sphinx.acast.com/p/acast/s/ftnewsbriefing/e/6ae7cc5fc89efe5866e85367/media.mp3"
         }
       ]
     },
@@ -127,49 +170,6 @@
           "link": "https://hbr.org/podcast/2026/10/optimism-is-now-an-essential-leadership-skill",
           "date": "Tue, 06 Oct 2026 06:03:02 -0500",
           "audio": "https://audio.hbr.org/ideacast/20261005143601_459117-OptimismIsNowanEssentialLeadershipSkill.mp3"
-        }
-      ]
-    },
-    {
-      "id": "bbc-globalnews",
-      "name": "BBC Global News Podcast",
-      "url": "https://downloads.bbc.co.uk/podcasts/worldservice/globalnews/rss.xml",
-      "items": [
-        {
-          "title": "Poland in shock as six killed in shooting",
-          "link": "http://www.bbc.co.uk/programmes/p0plw73g",
-          "date": "Sun, 08 Nov 2026 04:44:00 +0000",
-          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0plw70f.mp3"
-        },
-        {
-          "title": "The Happy Pod: Celebrating the wedding that never happened",
-          "link": "http://www.bbc.co.uk/programmes/p0plplrh",
-          "date": "Sat, 07 Nov 2026 12:00:00 +0000",
-          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0plpklc.mp3"
-        },
-        {
-          "title": "Trump appoints new chief of staff after midterm defeat",
-          "link": "http://www.bbc.co.uk/programmes/p0plrs2j",
-          "date": "Sat, 07 Nov 2026 04:19:00 +0000",
-          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0plrs0b.mp3"
-        },
-        {
-          "title": "Tech stocks tank over AI panic",
-          "link": "http://www.bbc.co.uk/programmes/p0plnyvn",
-          "date": "Fri, 06 Nov 2026 16:06:00 +0000",
-          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0plnwcw.mp3"
-        },
-        {
-          "title": "Pete Hegseth under pressure after US elections",
-          "link": "http://www.bbc.co.uk/programmes/p0plk945",
-          "date": "Fri, 06 Nov 2026 05:39:00 +0000",
-          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0plk8hr.mp3"
-        },
-        {
-          "title": "Fresh mass protests in France",
-          "link": "http://www.bbc.co.uk/programmes/p0plh2tw",
-          "date": "Thu, 05 Nov 2026 16:22:00 +0000",
-          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0plh23f.mp3"
         }
       ]
     },
