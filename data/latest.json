@@ -1,11 +1,17 @@
 {
-  "updated": "2026-11-15T07:14:13.892842+00:00",
+  "updated": "2026-11-16T07:20:14.404939+00:00",
   "feeds": [
     {
       "id": "bbc-bizdaily",
       "name": "BBC Business Daily",
       "url": "https://downloads.bbc.co.uk/podcasts/worldservice/bizdaily/rss.xml",
       "items": [
+        {
+          "title": "Bringing baseball to Europe",
+          "link": "http://www.bbc.co.uk/programmes/w3ct8ggs",
+          "date": "Sun, 15 Nov 2026 21:30:00 +0000",
+          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pmxz5c.mp3"
+        },
         {
           "title": "Power Players: What did Trump and the White House know about Nvidia?",
           "link": "http://www.bbc.co.uk/programmes/w3ct8gby",
@@ -35,12 +41,6 @@
           "link": "http://www.bbc.co.uk/programmes/w3ct8grs",
           "date": "Mon, 09 Nov 2026 21:30:00 +0000",
           "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pm368f.mp3"
-        },
-        {
-          "title": "Why Europe wants to rely less on US tech companies",
-          "link": "http://www.bbc.co.uk/programmes/w3ct8ggr",
-          "date": "Sun, 08 Nov 2026 21:30:00 +0000",
-          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0plhryv.mp3"
         }
       ]
     },
@@ -93,6 +93,12 @@
       "url": "https://feeds.acast.com/public/shows/73fe3ede-5c5c-4850-96a8-30db8dbae8bf",
       "items": [
         {
+          "title": "US allies sign accord to keep China out of AI supply chains",
+          "link": "https://shows.acast.com/ftnewsbriefing/episodes/us-allies-sign-accord-to-keep-china-out-of-ai-supply-chains",
+          "date": "Mon, 16 Nov 2026 05:00:00 GMT",
+          "audio": "https://sphinx.acast.com/p/acast/s/ftnewsbriefing/e/6afa077508be5707d1b85fc8/media.mp3"
+        },
+        {
           "title": "Martin Wolf on the US midterms: Trump loses. European populism lives on.",
           "link": "https://shows.acast.com/ftnewsbriefing/episodes/martin-wolf-on-the-us-midterms-trump-loses-european-populism",
           "date": "Sat, 14 Nov 2026 05:00:00 GMT",
@@ -121,12 +127,6 @@
           "link": "https://shows.acast.com/ftnewsbriefing/episodes/the-fallout-of-nvidias-spying-scandal",
           "date": "Tue, 10 Nov 2026 05:00:00 GMT",
           "audio": "https://sphinx.acast.com/p/acast/s/ftnewsbriefing/e/6af269e3ed870dba3d3ec6e4/media.mp3"
-        },
-        {
-          "title": "Nvidia CEO admits to affair after allegations of relationship with Chinese spy",
-          "link": "https://shows.acast.com/ftnewsbriefing/episodes/nvidia-ceo-admits-to-affair-after-allegations-of-relationshi",
-          "date": "Mon, 09 Nov 2026 05:00:00 GMT",
-          "audio": "https://sphinx.acast.com/p/acast/s/ftnewsbriefing/e/6af0ec50b68b03091ec747fc/media.mp3"
         }
       ]
     },
@@ -170,6 +170,49 @@
           "link": "https://hbr.org/podcast/2026/10/how-ai-is-changing-strategy-rethinking-what-your-business-is-designed-to-do",
           "date": "Thu, 08 Oct 2026 07:04:20 -0500",
           "audio": "https://audio.hbr.org/ideacast/20261007153151_181590-HowAIIsChangingStrategy_RethinkingWhatYourBusinessIsDesignedtoDo.mp3"
+        }
+      ]
+    },
+    {
+      "id": "bbc-globalnews",
+      "name": "BBC Global News Podcast",
+      "url": "https://downloads.bbc.co.uk/podcasts/worldservice/globalnews/rss.xml",
+      "items": [
+        {
+          "title": "Government forces retreat in Yemen",
+          "link": "http://www.bbc.co.uk/programmes/p0pn65z8",
+          "date": "Mon, 16 Nov 2026 05:48:00 +0000",
+          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pn65f7.mp3"
+        },
+        {
+          "title": "The Global Story: How North Korea pulled off a $6bn heist",
+          "link": "http://www.bbc.co.uk/programmes/p0pmv9b1",
+          "date": "Sun, 15 Nov 2026 20:00:00 +0000",
+          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pmv7s7.mp3"
+        },
+        {
+          "title": "SpaceX makes history catching part of returning spacecraft",
+          "link": "http://www.bbc.co.uk/programmes/p0pn35d7",
+          "date": "Sun, 15 Nov 2026 04:59:00 +0000",
+          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pn353v.mp3"
+        },
+        {
+          "title": "The Happy Pod: I've put women on the map with Antarctic record",
+          "link": "http://www.bbc.co.uk/programmes/p0pmw5pp",
+          "date": "Sat, 14 Nov 2026 12:00:00 +0000",
+          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pmvz62.mp3"
+        },
+        {
+          "title": "US airspace reopens after flights grounded for several hours",
+          "link": "http://www.bbc.co.uk/programmes/p0pmzyrg",
+          "date": "Sat, 14 Nov 2026 04:41:00 +0000",
+          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pmzy3x.mp3"
+        },
+        {
+          "title": "Microsoft outage: Millions affected in over 70 countries",
+          "link": "http://www.bbc.co.uk/programmes/p0pmwsp6",
+          "date": "Fri, 13 Nov 2026 15:51:00 +0000",
+          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pmwqby.mp3"
         }
       ]
     },
