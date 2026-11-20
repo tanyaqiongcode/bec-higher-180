@@ -1,6 +1,11 @@
 #!/usr/bin/env python3
 """抓取商务播客/新闻 RSS，生成 data/latest.json 供 practice.html 与精听工作台使用。
-仅在 GitHub Actions 定时任务与手动触发时运行；单个源失败不影响其他源。"""
+
+数据可靠性约定（与雅思站/高口站 update_feeds.py 同一契约）：
+- 单个源失败时，沿用上次成功抓取的该源数据（合并写入，绝不因部分失败丢弃好数据）；
+- 仅当「全部源失败且无历史数据」时才以非零码退出（CI 视为失败）；
+- 每个源带 fetched_at，前端可见数据新旧。
+仅在 GitHub Actions 定时任务与手动触发时运行。"""
 import json
 import ssl
 import sys
@@ -51,24 +56,66 @@ def fetch_feed(feed):
         })
         if len(items) >= MAX_ITEMS:
             break
-    return {"id": feed["id"], "name": feed["name"], "url": feed["url"], "items": items}
+    return items
+
+
+def merge_with_previous(previous, fresh):
+    """合并本轮抓取结果与上次成功数据。
+
+    fresh 每项: {id, name, url, ok, fetched_at, items}
+    previous  : 上一次的 latest.json（可为 None）
+    失败源沿用 previous 中同 id 的整条记录；无历史则 items 置空。
+    纯函数，便于单元测试。"""
+    prev_map = {f.get("id"): f for f in (previous or {}).get("feeds", [])}
+    merged = []
+    for f in fresh:
+        if f["ok"]:
+            merged.append({
+                "id": f["id"], "name": f.get("name", f["id"]), "url": f.get("url", ""),
+                "items": f["items"], "fetched_at": f["fetched_at"],
+            })
+        elif f["id"] in prev_map:
+            keep = dict(prev_map[f["id"]])
+            keep.setdefault("fetched_at", None)
+            merged.append(keep)
+        else:
+            merged.append({
+                "id": f["id"], "name": f.get("name", f["id"]), "url": f.get("url", ""),
+                "items": [], "fetched_at": None,
+            })
+    return merged
 
 
 def main():
-    out = {"updated": datetime.now(timezone.utc).isoformat(), "feeds": []}
+    now = datetime.now(timezone.utc).isoformat()
+    dest = Path(__file__).resolve().parent.parent / "data" / "latest.json"
+    previous = None
+    if dest.exists():
+        try:
+            previous = json.loads(dest.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            previous = None  # 历史文件损坏时按无历史处理，不让本次抓取失败
+
+    fresh = []
     ok = 0
     for feed in FEEDS:
         try:
-            out["feeds"].append(fetch_feed(feed))
+            items = fetch_feed(feed)
+            fresh.append({"id": feed["id"], "name": feed["name"], "url": feed["url"],
+                          "ok": True, "fetched_at": now, "items": items})
             ok += 1
             print(f"OK   {feed['name']}")
         except Exception as exc:  # noqa: BLE001
+            fresh.append({"id": feed["id"], "name": feed["name"], "url": feed["url"],
+                          "ok": False, "fetched_at": now, "items": []})
             print(f"FAIL {feed['name']}: {exc}", file=sys.stderr)
-    dest = Path(__file__).resolve().parent.parent / "data" / "latest.json"
+
+    out = {"updated": now, "feeds": merge_with_previous(previous, fresh)}
     dest.parent.mkdir(parents=True, exist_ok=True)
     dest.write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"wrote {dest} ({ok}/{len(FEEDS)} feeds)")
-    if ok == 0:
+    kept = sum(1 for f in out["feeds"] if f.get("items"))
+    print(f"wrote {dest} ({ok}/{len(FEEDS)} feeds fetched, {kept} feeds with items after merge)")
+    if ok == 0 and kept == 0:
         sys.exit(1)
 
 

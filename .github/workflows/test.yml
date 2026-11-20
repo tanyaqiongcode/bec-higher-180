@@ -17,12 +17,18 @@ jobs:
       - name: Syntax check (browser JS)
         run: for f in assets/*.js; do node --check "$f"; done
 
+      - name: Unit tests (Node, 协议白名单回归)
+        run: node --test
+
       - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
 
       - name: Python 语法检查
         run: python3 -m py_compile scripts/*.py
+
+      - name: Unit tests (Python, RSS 合并)
+        run: python3 -m unittest discover -s tests -p "test_*.py" -v
 
       - name: 数据文件校验
         run: python3 -c "import json; d=json.load(open('data/latest.json')); assert isinstance(d, dict) and 'updated' in d and 'feeds' in d, 'latest.json 结构异常'; print('latest.json OK:', len(d['feeds']), 'feeds')"

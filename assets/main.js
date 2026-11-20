@@ -219,14 +219,16 @@
         (data.feeds || []).forEach(function (f) {
           var node = tpl.content.firstElementChild.cloneNode(true);
           $("[data-feed-name]", node).textContent = f.name;
-          $("[data-feed-link]", node).href = f.url;
+          var feedLink = BECCore.sanitizeLink(f.url);
+          if (feedLink) $("[data-feed-link]", node).href = feedLink;
           var list = $("[data-feed-list]", node);
           list.innerHTML = "";
           (f.items || []).forEach(function (it) {
             var li = document.createElement("li");
             var a = document.createElement("a");
-            a.href = it.link || it.audio || "#";
-            a.target = "_blank"; a.rel = "noopener";
+            // RSS 链接是外部不可信数据：仅放行 http(s)，恶意协议降级为纯文本（见 core.js）
+            var itemLink = BECCore.sanitizeLink(it.link || it.audio);
+            if (itemLink) { a.href = itemLink; a.target = "_blank"; a.rel = "noopener"; }
             a.textContent = it.title;
             var dt = document.createElement("span");
             dt.className = "dt";
