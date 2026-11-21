@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T07:48:15.660238+00:00",
+  "updated": "2026-11-21T07:43:50.519164+00:00",
   "feeds": [
     {
       "id": "bbc-bizdaily",
@@ -7,13 +7,19 @@
       "url": "https://downloads.bbc.co.uk/podcasts/worldservice/bizdaily/rss.xml",
       "items": [
         {
+          "title": "Power Players: Licence to Bill - James Bond, Robert Pattinson & Amazon Money",
+          "link": "http://www.bbc.co.uk/programmes/p0pp576b",
+          "date": "Fri, 20 Nov 2026 20:00:00 +0000",
+          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pp56dw.mp3"
+        },
+        {
           "title": "Taking stock: Nvidia, Anthropic’s IPO and the launch of GTA",
           "link": "http://www.bbc.co.uk/programmes/w3ct8gb8",
           "date": "Thu, 19 Nov 2026 21:30:00 +0000",
           "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pnwmpx.mp3"
         },
         {
-          "title": "Power players: How do you value Anthropic?",
+          "title": "Power players: Is Anthropic IPO a defining moment for AI?",
           "link": "http://www.bbc.co.uk/programmes/w3ct8gm9",
           "date": "Wed, 18 Nov 2026 21:30:00 +0000",
           "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pnr9gw.mp3"
@@ -35,20 +41,27 @@
           "link": "http://www.bbc.co.uk/programmes/w3ct8ggs",
           "date": "Sun, 15 Nov 2026 21:30:00 +0000",
           "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pmxz5c.mp3"
-        },
-        {
-          "title": "Power Players: What did Trump and the White House know about Nvidia?",
-          "link": "http://www.bbc.co.uk/programmes/w3ct8gby",
-          "date": "Fri, 13 Nov 2026 16:00:00 +0000",
-          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pmx48g.mp3"
         }
-      ]
+      ],
+      "fetched_at": "2026-11-21T07:43:50.519164+00:00"
     },
     {
       "id": "marketplace",
       "name": "Marketplace Morning Report",
       "url": "https://www.marketplace.org/feed/podcast/marketplace-morning-report",
       "items": [
+        {
+          "title": "What the Deutsche Bank leak reveals",
+          "link": "https://www.marketplace.org/episode/2026/11/20/what-the-deutsche-bank-leak-reveals",
+          "date": "Fri, 20 Nov 2026 16:02:00 +0000",
+          "audio": "https://pscrb.fm/rss/p/mgln.ai/e/5/dts.podtrac.com/redirect.mp3/tracking.swap.fm/track/VnCzW2iO9G8z4eDWfXCd/play.publicradio.org/podcast/o/marketplace/morning_report/2026/11/20/mmr_20261120_MMR_-_Podcast_2_64.mp3?awCollectionId=mkp-MMR&awEpisodeId=01M7WT87T59Q10QNCSG06A6C30"
+        },
+        {
+          "title": "Why JetBlue is in the red",
+          "link": "https://www.marketplace.org/episode/2026/11/20/why-jetblue-is-in-the-red",
+          "date": "Fri, 20 Nov 2026 12:47:00 +0000",
+          "audio": "https://pscrb.fm/rss/p/mgln.ai/e/5/dts.podtrac.com/redirect.mp3/tracking.swap.fm/track/VnCzW2iO9G8z4eDWfXCd/play.publicradio.org/podcast/o/marketplace/morning_report/2026/11/20/mmr_20261120_MMR_-_Podcast_1_64.mp3?awCollectionId=mkp-MMR&awEpisodeId=01M7WFXW9ZG2R3EJ4KCD3W3X3Y"
+        },
         {
           "title": "Affordability in Atlanta",
           "link": "https://www.marketplace.org/episode/2026/11/19/affordability-in-atlanta",
@@ -72,26 +85,21 @@
           "link": "https://www.marketplace.org/episode/2026/11/18/kalshi-trump-and-fears-of-market-manipulation",
           "date": "Wed, 18 Nov 2026 12:55:00 +0000",
           "audio": "https://pscrb.fm/rss/p/mgln.ai/e/5/dts.podtrac.com/redirect.mp3/tracking.swap.fm/track/VnCzW2iO9G8z4eDWfXCd/play.publicradio.org/podcast/o/marketplace/morning_report/2026/11/18/mmr_20261118_MMR_-_Podcast_1_64.mp3?awCollectionId=mkp-MMR&awEpisodeId=01M7QB10RZJSD2DNVSE4AX5B6K"
-        },
-        {
-          "title": "Why is everything breaking down right now?",
-          "link": "https://www.marketplace.org/episode/2026/11/17/why-is-everything-breaking-down-right-now",
-          "date": "Tue, 17 Nov 2026 16:02:00 +0000",
-          "audio": "https://pscrb.fm/rss/p/mgln.ai/e/5/dts.podtrac.com/redirect.mp3/tracking.swap.fm/track/VnCzW2iO9G8z4eDWfXCd/play.publicradio.org/podcast/o/marketplace/morning_report/2026/11/17/mmr_20261117_MMR_-_Podcast_2_64.mp3?awCollectionId=mkp-MMR&awEpisodeId=01M7N2HXVE3XB202MEQV6BJEB8"
-        },
-        {
-          "title": "Where the U.S.-China AI race goes from here",
-          "link": "https://www.marketplace.org/episode/2026/11/17/where-the-us-china-ai-race-goes-from-here",
-          "date": "Tue, 17 Nov 2026 12:51:00 +0000",
-          "audio": "https://pscrb.fm/rss/p/mgln.ai/e/5/dts.podtrac.com/redirect.mp3/tracking.swap.fm/track/VnCzW2iO9G8z4eDWfXCd/play.publicradio.org/podcast/o/marketplace/morning_report/2026/11/17/mmr_20261117_MMR_-_Podcast_1_64.mp3?awCollectionId=mkp-MMR&awEpisodeId=01M7MR6MKJVQSEMBDEA7D868B0"
         }
-      ]
+      ],
+      "fetched_at": "2026-11-21T07:43:50.519164+00:00"
     },
     {
       "id": "ft-briefing",
       "name": "FT News Briefing",
       "url": "https://feeds.acast.com/public/shows/73fe3ede-5c5c-4850-96a8-30db8dbae8bf",
       "items": [
+        {
+          "title": "Martin Wolf on the US midterms: Could history help predict the next two years of US politics?",
+          "link": "https://shows.acast.com/ftnewsbriefing/episodes/martin-wolf-on-the-us-midterms-could-history-help-predict-th",
+          "date": "Sat, 21 Nov 2026 05:00:00 GMT",
+          "audio": "https://sphinx.acast.com/p/acast/s/ftnewsbriefing/e/6b008d14d0e980d0cfd6dcc8/media.mp3"
+        },
         {
           "title": "Anthropic’s splashy public market debut",
           "link": "https://shows.acast.com/ftnewsbriefing/episodes/anthropics-splashy-public-market-debut",
@@ -121,14 +129,9 @@
           "link": "https://shows.acast.com/ftnewsbriefing/episodes/us-allies-sign-accord-to-keep-china-out-of-ai-supply-chains",
           "date": "Mon, 16 Nov 2026 05:00:00 GMT",
           "audio": "https://sphinx.acast.com/p/acast/s/ftnewsbriefing/e/6afa077508be5707d1b85fc8/media.mp3"
-        },
-        {
-          "title": "Martin Wolf on the US midterms: Trump loses. European populism lives on.",
-          "link": "https://shows.acast.com/ftnewsbriefing/episodes/martin-wolf-on-the-us-midterms-trump-loses-european-populism",
-          "date": "Sat, 14 Nov 2026 05:00:00 GMT",
-          "audio": "https://sphinx.acast.com/p/acast/s/ftnewsbriefing/e/6af71ae49d9936aaac3f4b0a/media.mp3"
         }
-      ]
+      ],
+      "fetched_at": "2026-11-21T07:43:50.519164+00:00"
     },
     {
       "id": "hbr-ideacast",
@@ -171,13 +174,26 @@
           "date": "Tue, 20 Oct 2026 06:09:31 -0500",
           "audio": "https://audio.hbr.org/ideacast/20261019101328_286459-WhenYouFeelEnvyTurnItIntoSomethingProductive.mp3"
         }
-      ]
+      ],
+      "fetched_at": "2026-11-21T07:43:50.519164+00:00"
     },
     {
       "id": "bbc-globalnews",
       "name": "BBC Global News Podcast",
       "url": "https://downloads.bbc.co.uk/podcasts/worldservice/globalnews/rss.xml",
       "items": [
+        {
+          "title": "Man found guilty of starting deadly LA wildfire",
+          "link": "http://www.bbc.co.uk/programmes/p0pp66wy",
+          "date": "Sat, 21 Nov 2026 05:00:00 +0000",
+          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pp66mc.mp3"
+        },
+        {
+          "title": "UK agrees deal on closer cooperation with EU",
+          "link": "http://www.bbc.co.uk/programmes/p0pp3pln",
+          "date": "Fri, 20 Nov 2026 15:29:00 +0000",
+          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pp3ndk.mp3"
+        },
         {
           "title": "Abusers convicted in Joanne Young case echoing Pelicot",
           "link": "http://www.bbc.co.uk/programmes/p0pnyk0h",
@@ -201,26 +217,21 @@
           "link": "http://www.bbc.co.uk/programmes/p0pnndk4",
           "date": "Wed, 18 Nov 2026 15:43:00 +0000",
           "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pnncvn.mp3"
-        },
-        {
-          "title": "Nvidia rules out return for disgraced boss",
-          "link": "http://www.bbc.co.uk/programmes/p0pnjy0q",
-          "date": "Wed, 18 Nov 2026 05:26:00 +0000",
-          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pnjxxc.mp3"
-        },
-        {
-          "title": "Special episode: Trump, Putin and Xi meeting",
-          "link": "http://www.bbc.co.uk/programmes/p0pnhq1p",
-          "date": "Tue, 17 Nov 2026 20:00:00 +0000",
-          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pnhmvc.mp3"
         }
-      ]
+      ],
+      "fetched_at": "2026-11-21T07:43:50.519164+00:00"
     },
     {
       "id": "economist-intel",
       "name": "The Intelligence · Economist",
       "url": "https://feeds.acast.com/public/shows/theintelligencepodcast",
       "items": [
+        {
+          "title": "Delayed but not denied: justice for the Rohingyas",
+          "link": "https://shows.acast.com/theintelligencepodcast/episodes/delayed-but-not-denied-justice-for-the-rohingyas",
+          "date": "Fri, 20 Nov 2026 11:07:08 GMT",
+          "audio": "https://sphinx.acast.com/p/acast/s/theintelligencepodcast/e/6b0029dc322405712ca22bff/media.mp3?tk=eyJ0ayI6ImRlZmF1bHQiLCJhZHMiOnRydWUsInNwb25zIjp0cnVlLCJzdGF0dXMiOiJwdWJsaWMifQ==&sig=LRZ9mJt-MwREk-T2wqLuyVDlJlpsICOpgpLckWl4XHA"
+        },
         {
           "title": "Racing ahead: Anthropic’s big IPO",
           "link": "https://shows.acast.com/theintelligencepodcast/episodes/racing-ahead-anthropics-big-ipo",
@@ -250,14 +261,9 @@
           "link": "https://shows.acast.com/theintelligencepodcast/episodes/invidious-position-finding-jensen-huangs-successor",
           "date": "Fri, 13 Nov 2026 11:09:22 GMT",
           "audio": "https://sphinx.acast.com/p/acast/s/theintelligencepodcast/e/6af6e7991f9433e997b64a63/media.mp3?tk=eyJ0ayI6ImRlZmF1bHQiLCJhZHMiOnRydWUsInNwb25zIjp0cnVlLCJzdGF0dXMiOiJwdWJsaWMifQ==&sig=bqO_KjcvsljZafa-xpWttY1f7vLK94Gx4FNuTOld7lk"
-        },
-        {
-          "title": "Abate and switch: how China’s emissions fell",
-          "link": "https://shows.acast.com/theintelligencepodcast/episodes/abate-and-switch-how-chinas-emissions-fell",
-          "date": "Thu, 12 Nov 2026 10:35:32 GMT",
-          "audio": "https://sphinx.acast.com/p/acast/s/theintelligencepodcast/e/6af5967413c30781a320173d/media.mp3?tk=eyJ0ayI6ImRlZmF1bHQiLCJhZHMiOnRydWUsInNwb25zIjp0cnVlLCJzdGF0dXMiOiJwdWJsaWMifQ==&sig=eVsUKSJOAnqlTYTdDnF_ns4Z1izwPH8DUdLoLSM_zck"
         }
-      ]
+      ],
+      "fetched_at": "2026-11-21T07:43:50.519164+00:00"
     },
     {
       "id": "skills360",
@@ -300,7 +306,8 @@
           "date": "Sun, 15 Oct 2017 10:51:20 +0000",
           "audio": "https://traffic.libsyn.com/bizpod/360.63-Metaphor1.mp3"
         }
-      ]
+      ],
+      "fetched_at": "2026-11-21T07:43:50.519164+00:00"
     }
   ]
 }
