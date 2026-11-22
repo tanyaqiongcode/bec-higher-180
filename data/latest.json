@@ -1,11 +1,17 @@
 {
-  "updated": "2026-11-21T07:43:50.519164+00:00",
+  "updated": "2026-11-22T07:29:59.681204+00:00",
   "feeds": [
     {
       "id": "bbc-bizdaily",
       "name": "BBC Business Daily",
       "url": "https://downloads.bbc.co.uk/podcasts/worldservice/bizdaily/rss.xml",
       "items": [
+        {
+          "title": "Recommending... Inheritance: Fiat",
+          "link": "http://www.bbc.co.uk/programmes/p0pn7sxd",
+          "date": "Sun, 22 Nov 2026 00:01:00 +0000",
+          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pn7s86.mp3"
+        },
         {
           "title": "Power Players: Licence to Bill - James Bond, Robert Pattinson & Amazon Money",
           "link": "http://www.bbc.co.uk/programmes/p0pp576b",
@@ -35,15 +41,9 @@
           "link": "http://www.bbc.co.uk/programmes/w3ct8grt",
           "date": "Mon, 16 Nov 2026 21:30:00 +0000",
           "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pn9b1m.mp3"
-        },
-        {
-          "title": "Bringing baseball to Europe",
-          "link": "http://www.bbc.co.uk/programmes/w3ct8ggs",
-          "date": "Sun, 15 Nov 2026 21:30:00 +0000",
-          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pmxz5c.mp3"
         }
       ],
-      "fetched_at": "2026-11-21T07:43:50.519164+00:00"
+      "fetched_at": "2026-11-22T07:29:59.681204+00:00"
     },
     {
       "id": "marketplace",
@@ -87,7 +87,7 @@
           "audio": "https://pscrb.fm/rss/p/mgln.ai/e/5/dts.podtrac.com/redirect.mp3/tracking.swap.fm/track/VnCzW2iO9G8z4eDWfXCd/play.publicradio.org/podcast/o/marketplace/morning_report/2026/11/18/mmr_20261118_MMR_-_Podcast_1_64.mp3?awCollectionId=mkp-MMR&awEpisodeId=01M7QB10RZJSD2DNVSE4AX5B6K"
         }
       ],
-      "fetched_at": "2026-11-21T07:43:50.519164+00:00"
+      "fetched_at": "2026-11-22T07:29:59.681204+00:00"
     },
     {
       "id": "ft-briefing",
@@ -131,7 +131,7 @@
           "audio": "https://sphinx.acast.com/p/acast/s/ftnewsbriefing/e/6afa077508be5707d1b85fc8/media.mp3"
         }
       ],
-      "fetched_at": "2026-11-21T07:43:50.519164+00:00"
+      "fetched_at": "2026-11-22T07:29:59.681204+00:00"
     },
     {
       "id": "hbr-ideacast",
@@ -175,13 +175,25 @@
           "audio": "https://audio.hbr.org/ideacast/20261019101328_286459-WhenYouFeelEnvyTurnItIntoSomethingProductive.mp3"
         }
       ],
-      "fetched_at": "2026-11-21T07:43:50.519164+00:00"
+      "fetched_at": "2026-11-22T07:29:59.681204+00:00"
     },
     {
       "id": "bbc-globalnews",
       "name": "BBC Global News Podcast",
       "url": "https://downloads.bbc.co.uk/podcasts/worldservice/globalnews/rss.xml",
       "items": [
+        {
+          "title": "Deadlock at UN climate summit in Turkey",
+          "link": "http://www.bbc.co.uk/programmes/p0pp9hxv",
+          "date": "Sun, 22 Nov 2026 04:48:00 +0000",
+          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pp9hr7.mp3"
+        },
+        {
+          "title": "The Happy Pod: The 'amazing’ device that controls Tourette's",
+          "link": "http://www.bbc.co.uk/programmes/p0pp4d5y",
+          "date": "Sat, 21 Nov 2026 12:00:00 +0000",
+          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pp4c96.mp3"
+        },
         {
           "title": "Man found guilty of starting deadly LA wildfire",
           "link": "http://www.bbc.co.uk/programmes/p0pp66wy",
@@ -205,21 +217,9 @@
           "link": "http://www.bbc.co.uk/programmes/p0pnw5rb",
           "date": "Thu, 19 Nov 2026 16:03:00 +0000",
           "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pnw2mf.mp3"
-        },
-        {
-          "title": "BBC reports from Ukraine's undergound frontier",
-          "link": "http://www.bbc.co.uk/programmes/p0pnrndj",
-          "date": "Thu, 19 Nov 2026 05:19:00 +0000",
-          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pnrnb6.mp3"
-        },
-        {
-          "title": "Trump, Xi and Putin meet in China",
-          "link": "http://www.bbc.co.uk/programmes/p0pnndk4",
-          "date": "Wed, 18 Nov 2026 15:43:00 +0000",
-          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pnncvn.mp3"
         }
       ],
-      "fetched_at": "2026-11-21T07:43:50.519164+00:00"
+      "fetched_at": "2026-11-22T07:29:59.681204+00:00"
     },
     {
       "id": "economist-intel",
@@ -263,7 +263,7 @@
           "audio": "https://sphinx.acast.com/p/acast/s/theintelligencepodcast/e/6af6e7991f9433e997b64a63/media.mp3?tk=eyJ0ayI6ImRlZmF1bHQiLCJhZHMiOnRydWUsInNwb25zIjp0cnVlLCJzdGF0dXMiOiJwdWJsaWMifQ==&sig=bqO_KjcvsljZafa-xpWttY1f7vLK94Gx4FNuTOld7lk"
         }
       ],
-      "fetched_at": "2026-11-21T07:43:50.519164+00:00"
+      "fetched_at": "2026-11-22T07:29:59.681204+00:00"
     },
     {
       "id": "skills360",
@@ -307,7 +307,7 @@
           "audio": "https://traffic.libsyn.com/bizpod/360.63-Metaphor1.mp3"
         }
       ],
-      "fetched_at": "2026-11-21T07:43:50.519164+00:00"
+      "fetched_at": "2026-11-22T07:29:59.681204+00:00"
     }
   ]
 }
