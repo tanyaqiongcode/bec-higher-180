@@ -1,11 +1,29 @@
 {
-  "updated": "2026-11-24T10:27:17.552000+00:00",
+  "updated": "2026-11-25T09:14:00.226767+00:00",
   "feeds": [
     {
       "id": "bbc-bizdaily",
       "name": "BBC Business Daily",
       "url": "https://downloads.bbc.co.uk/podcasts/worldservice/bizdaily/rss.xml",
       "items": [
+        {
+          "title": "Founders: How Whatnot built a live shopping giant",
+          "link": "http://www.bbc.co.uk/programmes/w3ct98sy",
+          "date": "Tue, 24 Nov 2026 21:30:00 +0000",
+          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pppbbh.mp3"
+        },
+        {
+          "title": "Follow the Money: Where did Trump's tariff refunds go?",
+          "link": "http://www.bbc.co.uk/programmes/w3ct8grv",
+          "date": "Mon, 23 Nov 2026 21:30:00 +0000",
+          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0ppgczr.mp3"
+        },
+        {
+          "title": "Can Chile turn methane into money?",
+          "link": "http://www.bbc.co.uk/programmes/w3ct8ggt",
+          "date": "Sun, 22 Nov 2026 21:30:00 +0000",
+          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0ppf6j7.mp3"
+        },
         {
           "title": "Recommending... Inheritance: Fiat",
           "link": "http://www.bbc.co.uk/programmes/p0pn7sxd",
@@ -23,33 +41,27 @@
           "link": "http://www.bbc.co.uk/programmes/w3ct8gb8",
           "date": "Thu, 19 Nov 2026 21:30:00 +0000",
           "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pnwmpx.mp3"
-        },
-        {
-          "title": "Power players: Is Anthropic IPO a defining moment for AI?",
-          "link": "http://www.bbc.co.uk/programmes/w3ct8gm9",
-          "date": "Wed, 18 Nov 2026 21:30:00 +0000",
-          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pnr9gw.mp3"
-        },
-        {
-          "title": "Founders: Can a European AI firm take on Google Translate?",
-          "link": "http://www.bbc.co.uk/programmes/w3ct98sx",
-          "date": "Tue, 17 Nov 2026 21:30:00 +0000",
-          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pnh0fm.mp3"
-        },
-        {
-          "title": "Follow the Money: Who pays for the AI boom now?",
-          "link": "http://www.bbc.co.uk/programmes/w3ct8grt",
-          "date": "Mon, 16 Nov 2026 21:30:00 +0000",
-          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pn9b1m.mp3"
         }
       ],
-      "fetched_at": "2026-11-22T07:29:59.681204+00:00"
+      "fetched_at": "2026-11-25T09:14:00.226767+00:00"
     },
     {
       "id": "marketplace",
       "name": "Marketplace Morning Report",
       "url": "https://www.marketplace.org/feed/podcast/marketplace-morning-report",
       "items": [
+        {
+          "title": "Afghan refugees create their own food culture in Texas",
+          "link": "https://www.marketplace.org/episode/2026/11/24/afghan-refugees-create-their-own-food-culture-in-texas",
+          "date": "Tue, 24 Nov 2026 15:30:00 +0000",
+          "audio": "https://pscrb.fm/rss/p/mgln.ai/e/5/dts.podtrac.com/redirect.mp3/tracking.swap.fm/track/VnCzW2iO9G8z4eDWfXCd/play.publicradio.org/podcast/o/marketplace/morning_report/2026/11/24/mmr_20261124_MMR_Podcast_2_64.mp3?awCollectionId=mkp-MMR&awEpisodeId=01M871RAYYKQF4HX6X8R3RWYAR"
+        },
+        {
+          "title": "Do you have flood insurance?",
+          "link": "https://www.marketplace.org/episode/2026/11/24/do-you-have-flood-insurance",
+          "date": "Tue, 24 Nov 2026 13:40:00 +0000",
+          "audio": "https://pscrb.fm/rss/p/mgln.ai/e/5/dts.podtrac.com/redirect.mp3/tracking.swap.fm/track/VnCzW2iO9G8z4eDWfXCd/play.publicradio.org/podcast/o/marketplace/morning_report/2026/11/24/mmr_20261124_MMR_Podcast_1_64.mp3?awCollectionId=mkp-MMR&awEpisodeId=01M86T6Y1QACAAFH6JEZQFFE1Z"
+        },
         {
           "title": "Jensen Huang is back",
           "link": "https://www.marketplace.org/episode/2026/11/23/jensen-huang-is-back",
@@ -73,27 +85,21 @@
           "link": "https://www.marketplace.org/episode/2026/11/20/why-jetblue-is-in-the-red",
           "date": "Fri, 20 Nov 2026 12:47:00 +0000",
           "audio": "https://pscrb.fm/rss/p/mgln.ai/e/5/dts.podtrac.com/redirect.mp3/tracking.swap.fm/track/VnCzW2iO9G8z4eDWfXCd/play.publicradio.org/podcast/o/marketplace/morning_report/2026/11/20/mmr_20261120_MMR_-_Podcast_1_64.mp3?awCollectionId=mkp-MMR&awEpisodeId=01M7WFXW9ZG2R3EJ4KCD3W3X3Y"
-        },
-        {
-          "title": "Affordability in Atlanta",
-          "link": "https://www.marketplace.org/episode/2026/11/19/affordability-in-atlanta",
-          "date": "Thu, 19 Nov 2026 15:30:00 +0000",
-          "audio": "https://pscrb.fm/rss/p/mgln.ai/e/5/dts.podtrac.com/redirect.mp3/tracking.swap.fm/track/VnCzW2iO9G8z4eDWfXCd/play.publicradio.org/podcast/o/marketplace/morning_report/2026/11/19/mmr_20261119_MMR_-_Podcast_2_64.mp3?awCollectionId=mkp-MMR&awEpisodeId=01M7T6V0A51HR7T8EY0T9QHDK9"
-        },
-        {
-          "title": "The toll of unpaid caregiving",
-          "link": "https://www.marketplace.org/episode/2026/11/19/the-toll-of-unpaid-caregiving",
-          "date": "Thu, 19 Nov 2026 13:02:00 +0000",
-          "audio": "https://pscrb.fm/rss/p/mgln.ai/e/5/dts.podtrac.com/redirect.mp3/tracking.swap.fm/track/VnCzW2iO9G8z4eDWfXCd/play.publicradio.org/podcast/o/marketplace/morning_report/2026/11/19/mmr_20261119_MMR_-_Podcast_1_64.mp3?awCollectionId=mkp-MMR&awEpisodeId=01M7SXT1H223D26W2TWFQZ2WNP"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:17.552000+00:00"
+      "fetched_at": "2026-11-25T09:14:00.226767+00:00"
     },
     {
       "id": "ft-briefing",
       "name": "FT News Briefing",
       "url": "https://feeds.acast.com/public/shows/73fe3ede-5c5c-4850-96a8-30db8dbae8bf",
       "items": [
+        {
+          "title": "The tech bros strike back",
+          "link": "https://shows.acast.com/ftnewsbriefing/episodes/the-tech-bros-strike-back",
+          "date": "Wed, 25 Nov 2026 05:00:00 GMT",
+          "audio": "https://sphinx.acast.com/p/acast/s/ftnewsbriefing/e/6b0620af38d4dce52709bcbe/media.mp3"
+        },
         {
           "title": "Does Jensen Huang’s return to Nvidia mean the chip group is too big to fail?",
           "link": "https://shows.acast.com/ftnewsbriefing/episodes/does-jensen-huangs-return-to-nvidia-mean-the-chip-group-is-t",
@@ -123,21 +129,21 @@
           "link": "https://shows.acast.com/ftnewsbriefing/episodes/anthropics-big-ipo-day-arrives",
           "date": "Thu, 19 Nov 2026 05:00:00 GMT",
           "audio": "https://sphinx.acast.com/p/acast/s/ftnewsbriefing/e/6afe3fe2b4e29f4217f54a22/media.mp3"
-        },
-        {
-          "title": "Nvidia board insists Huang won’t return as CEO",
-          "link": "https://shows.acast.com/ftnewsbriefing/episodes/nvidia-board-insists-huang-wont-return-as-ceo",
-          "date": "Wed, 18 Nov 2026 05:00:00 GMT",
-          "audio": "https://sphinx.acast.com/p/acast/s/ftnewsbriefing/e/6afcfb21990afed4ab5e9b8f/media.mp3"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:17.552000+00:00"
+      "fetched_at": "2026-11-25T09:14:00.226767+00:00"
     },
     {
       "id": "hbr-ideacast",
       "name": "HBR IdeaCast",
       "url": "https://feeds.feedburner.com/harvardbusiness/ideacast",
       "items": [
+        {
+          "title": "The Subtle Marketing Tactics That Shape What We Buy",
+          "link": "https://hbr.org/podcast/2026/11/the-subtle-marketing-tactics-that-shape-what-we-buy",
+          "date": "Tue, 24 Nov 2026 06:04:11 -0500",
+          "audio": "https://audio.hbr.org/ideacast/20261120124023_745115-TheSubtleMarketingTacticsThatShapeWhatWeBuy.mp3"
+        },
         {
           "title": "Innovation Summit 2026: Block’s Jack Dorsey on Building a Company Around Intelligence",
           "link": "https://hbr.org/podcast/2026/11/innovation-summit-2026-blocks-jack-dorsey-on-building-a-company-around-intelligence",
@@ -167,21 +173,27 @@
           "link": "https://hbr.org/podcast/2026/10/staying-principled-in-a-time-of-uncertainty",
           "date": "Tue, 27 Oct 2026 06:03:40 -0500",
           "audio": "https://audio.hbr.org/ideacast/20261023142429_262374-StayingPrincipledinaTimeofUncertainty.mp3"
-        },
-        {
-          "title": "When You Feel Envy, Turn It Into Something Productive",
-          "link": "https://hbr.org/podcast/2026/10/when-you-feel-envy-turn-it-into-something-productive",
-          "date": "Tue, 20 Oct 2026 06:09:31 -0500",
-          "audio": "https://audio.hbr.org/ideacast/20261019101328_286459-WhenYouFeelEnvyTurnItIntoSomethingProductive.mp3"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:17.552000+00:00"
+      "fetched_at": "2026-11-25T09:14:00.226767+00:00"
     },
     {
       "id": "bbc-globalnews",
       "name": "BBC Global News Podcast",
       "url": "https://downloads.bbc.co.uk/podcasts/worldservice/globalnews/rss.xml",
       "items": [
+        {
+          "title": "Huawei has been found guilty of bank fraud in the US",
+          "link": "http://www.bbc.co.uk/programmes/p0pprc4x",
+          "date": "Wed, 25 Nov 2026 06:05:00 +0000",
+          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0ppr6k6.mp3"
+        },
+        {
+          "title": "Is Jensen Huang's reinstatement good news for China?",
+          "link": "http://www.bbc.co.uk/programmes/p0ppp111",
+          "date": "Tue, 24 Nov 2026 16:47:00 +0000",
+          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0ppnzlx.mp3"
+        },
         {
           "title": "Stock markets jump after Nvidia boss reinstated",
           "link": "http://www.bbc.co.uk/programmes/p0ppkqn5",
@@ -205,27 +217,21 @@
           "link": "http://www.bbc.co.uk/programmes/p0pp0406",
           "date": "Sun, 22 Nov 2026 20:00:00 +0000",
           "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pp03f4.mp3"
-        },
-        {
-          "title": "Deadlock at UN climate summit in Turkey",
-          "link": "http://www.bbc.co.uk/programmes/p0pp9hxv",
-          "date": "Sun, 22 Nov 2026 04:48:00 +0000",
-          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pp9hr7.mp3"
-        },
-        {
-          "title": "The Happy Pod: The 'amazing’ device that controls Tourette's",
-          "link": "http://www.bbc.co.uk/programmes/p0pp4d5y",
-          "date": "Sat, 21 Nov 2026 12:00:00 +0000",
-          "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pp4c96.mp3"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:17.552000+00:00"
+      "fetched_at": "2026-11-25T09:14:00.226767+00:00"
     },
     {
       "id": "economist-intel",
       "name": "The Intelligence · Economist",
       "url": "https://feeds.acast.com/public/shows/theintelligencepodcast",
       "items": [
+        {
+          "title": "Alice forgiven? Jensen Huang back at Nvidia",
+          "link": "https://shows.acast.com/theintelligencepodcast/episodes/alice-forgiven-jensen-huang-back-at-nvidia",
+          "date": "Tue, 24 Nov 2026 11:11:08 GMT",
+          "audio": "https://sphinx.acast.com/p/acast/s/theintelligencepodcast/e/6b0570ccced26bb723ddd995/media.mp3?tk=eyJ0ayI6ImRlZmF1bHQiLCJhZHMiOnRydWUsInNwb25zIjp0cnVlLCJzdGF0dXMiOiJwdWJsaWMifQ==&sig=lvdyBGVqQXVPY2pdQZCTS3N3CKiMwQ_yWZvDF187Lac"
+        },
         {
           "title": "In the life of prime: AI’s latest maths triumph",
           "link": "https://shows.acast.com/theintelligencepodcast/episodes/in-the-life-of-prime-ais-latest-maths-triumph",
@@ -255,15 +261,9 @@
           "link": "https://shows.acast.com/theintelligencepodcast/episodes/transchipment-huang-and-the-ai-aftershocks",
           "date": "Tue, 17 Nov 2026 10:47:38 GMT",
           "audio": "https://sphinx.acast.com/p/acast/s/theintelligencepodcast/e/6afc30ca27224dadceb682ee/media.mp3?tk=eyJ0ayI6ImRlZmF1bHQiLCJhZHMiOnRydWUsInNwb25zIjp0cnVlLCJzdGF0dXMiOiJwdWJsaWMifQ==&sig=W1rJrs_kobHiQzAqOok0B77QnvCjUVTC5rWHkQwoE_0"
-        },
-        {
-          "title": "Cede of doubt: a NATO offer to Ukraine",
-          "link": "https://shows.acast.com/theintelligencepodcast/episodes/cede-of-doubt-a-nato-offer-to-ukraine",
-          "date": "Mon, 16 Nov 2026 11:05:23 GMT",
-          "audio": "https://sphinx.acast.com/p/acast/s/theintelligencepodcast/e/6afae373b2404cde2fe7d916/media.mp3?tk=eyJ0ayI6ImRlZmF1bHQiLCJhZHMiOnRydWUsInNwb25zIjp0cnVlLCJzdGF0dXMiOiJwdWJsaWMifQ==&sig=4mREJXpni9ecp-lVzhLR2gTKeiIctR758Gwcl_zEONo"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:17.552000+00:00"
+      "fetched_at": "2026-11-25T09:14:00.226767+00:00"
     },
     {
       "id": "skills360",
@@ -307,7 +307,7 @@
           "audio": "https://traffic.libsyn.com/bizpod/360.63-Metaphor1.mp3"
         }
       ],
-      "fetched_at": "2026-11-24T10:27:17.552000+00:00"
+      "fetched_at": "2026-11-25T09:14:00.226767+00:00"
     }
   ]
 }
